@@ -1,0 +1,5 @@
+IP: 84.252.137.206;
+name_taski: https://yalta.hopto.org/;
+name_kittygram: https://my-kittygram.ddns.net/;
+login: sss;
+password: 02nindzya9;
