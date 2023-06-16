@@ -149,15 +149,15 @@
 - #### https://my-kittygram.ddns.net/
 
 
-### Технологии и необходимые ниструменты
+### Технологии и необходимые ниструменты:
 
 - Python 3.x
--Node.js 9.x.x
--Git
--Nginx
--Gunicorn
--Django (backend)
--React (frontend)
+- Node.js 9.x.x
+- Git
+- Nginx
+- Gunicorn
+- Django (backend)
+- React (frontend)
 
 
 ### Автор
