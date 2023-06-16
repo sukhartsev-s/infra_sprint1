@@ -95,7 +95,7 @@
     
 	        listen 80;
 	        server_name публичный_ip_вашего_удаленного_сервера;
-                server_tokens off;
+            server_tokens off;
     
 	        location /api/ {
 	            proxy_pass http://127.0.0.1:8080;
