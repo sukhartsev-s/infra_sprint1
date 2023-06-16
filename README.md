@@ -77,6 +77,7 @@
     
 	        listen 80;
 	        server_name публичный_ip_вашего_удаленного_сервера;
+                server_tokens off;
         
 	        location / {
             root   /var/www/<имя проекта>;
@@ -94,6 +95,7 @@
     
 	        listen 80;
 	        server_name публичный_ip_вашего_удаленного_сервера;
+                server_tokens off;
     
 	        location /api/ {
 	            proxy_pass http://127.0.0.1:8080;
@@ -141,11 +143,13 @@
 		}
 - Проверить конфигурацию `sudo nginx -t` и перезагрузить её командой `sudo systemctl reload nginx`, чтобы изменения вступили в силу.
 
+
 ##  Cсылк на развёрнутое приложение:
 
-### https://my-kittygram.ddns.net/
+- ### https://my-kittygram.ddns.net/
 
-- ## Технологии
+
+## Технологии
 - Python 3.x
 - node.js 9.x.x
 - frontend: React
@@ -153,5 +157,7 @@
 - nginx
 - gunicorn
 
-- ## Автор
-Сухарцев Сергей - [GitHub](https://github.com/suhartcev)
+
+## Автор
+
+- Сухарцев Сергей - [GitHub](https://github.com/suhartcev)
