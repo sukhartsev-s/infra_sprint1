@@ -77,7 +77,7 @@
     
 	        listen 80;
 	        server_name публичный_ip_вашего_удаленного_сервера;
-                server_tokens off;
+            server_tokens off;
         
 	        location / {
             root   /var/www/<имя проекта>;
